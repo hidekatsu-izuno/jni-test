@@ -1,0 +1,15 @@
+[package]
+name = "jni-test"
+version = "0.1.0"
+authors = ["Hidekatsu Izuno <hidekatsu.izuno@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.68"
+jni = "0.15.0"
+
+[build_dependencies]
+bindgen = "0.53.2"
